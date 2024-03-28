@@ -16,8 +16,6 @@ public class ProfileHistoryDTO {
 
     private LocalDateTime createdAt;
 
-    private LocalDateTime updatedAt;
-
     private String profile_type;
 
     private String reason;
