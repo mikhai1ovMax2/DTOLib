@@ -1,0 +1,20 @@
+
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+
+
+subprojects {
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+
+    // common dependencies for all modules should be added here
+    dependencies {
+
+    }
+}
